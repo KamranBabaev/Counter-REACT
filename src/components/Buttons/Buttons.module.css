@@ -1,0 +1,27 @@
+.buttons button {
+    width: 150px;
+    height: 50px;
+
+    font-size: 30px;
+    font-family: Impact, sans-serif;
+
+    background-color: #fd9164;
+    border: 5px solid black;
+    border-radius: 15px;
+
+    margin: 20px;
+
+    cursor: pointer;
+    transition: 50ms ease-in-out;
+
+}
+
+.buttons {
+    margin-left: 55px;
+}
+
+.buttons button:hover {
+    background-color: #ff6f3d;
+    transform: translateY(-3px);
+    transition: 50ms ease-in-out;
+}

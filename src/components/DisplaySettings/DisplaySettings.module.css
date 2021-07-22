@@ -1,0 +1,48 @@
+.displaySettings {
+    display: grid;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.displaySettings .item {
+    align-items: center;
+    margin: 10px 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.item input {
+    margin-left: 40px;
+    width: 150px;
+    height: 35px;
+    font-size: 35px;
+    padding: 10px 0 10px 30px;
+    border: 5px solid black;
+    background: white;
+    outline: none;
+    border-radius: 15px;
+}
+
+.setBTN {
+    margin: 35px auto;
+}
+
+.setBTN button{
+    width: 150px;
+    height: 50px;
+
+    font-size: 30px;
+    font-family: Impact, sans-serif;
+
+    background-color: #fd9164;
+    border: 5px solid black;
+    border-radius: 15px;
+
+    cursor: pointer;
+    transition: 50ms ease-in-out;
+}
+
+.setBTN button:hover {
+    background-color: #ff6f3d;
+    transform: translateY(-3px);
+    transition: 50ms ease-in-out;
+}

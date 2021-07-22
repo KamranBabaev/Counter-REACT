@@ -2,7 +2,6 @@ import React from "react";
 import {Buttons} from "../Buttons/Buttons";
 import styles from './Display.module.css'
 
-
 type DisplayPropsType = {
     increment: () => void
     reset: () => void

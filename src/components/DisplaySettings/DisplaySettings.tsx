@@ -12,7 +12,6 @@ type DisplaySettingsPropsType = {
 
 export function DisplaySettings(props: DisplaySettingsPropsType) {
 
-
     const maxValueTarget = (event: ChangeEvent<HTMLInputElement>) => {
         let valueTarget = +event.currentTarget.value
         props.setMaxValue(valueTarget)
@@ -22,9 +21,6 @@ export function DisplaySettings(props: DisplaySettingsPropsType) {
         let valueTarget = +event.currentTarget.value
         props.setStartValue(valueTarget)
     }
-
-
-
 
     return (
         <div className='wrapper'>

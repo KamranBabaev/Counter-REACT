@@ -1,25 +1,25 @@
 import React from "react";
 import {Buttons} from "../Buttons/Buttons";
 import styles from './Display.module.css'
+import {StateType} from "../../redux/reducer";
 
 type DisplayPropsType = {
     increment: () => void
-    reset: () => void
-    value: number
-    maxValue: number
-    startValue: number
+    reset: (startValue: number) => void
+    state: StateType
 }
 
 
 export function Display(props: DisplayPropsType) {
 
     return (
-        <div className='wrapper'>
+        <div className={styles.wrapper}>
 
             {
-                props.maxValue !== props.startValue
+                props.state.maxValue >= props.state.startValue
                     ? <div className={styles.display}>
-                        <span className={props.value === props.maxValue ? 'stopValue' : ''}>{props.value}</span>
+                        <span
+                            className={props.state.value === props.state.maxValue ? 'stopValue' : ''}>{props.state.value}</span>
                     </div>
 
                     : <div>
@@ -29,8 +29,7 @@ export function Display(props: DisplayPropsType) {
 
             <Buttons increment={props.increment}
                      reset={props.reset}
-                     value={props.value}
-                     maxValue={props.maxValue}
+                     state={props.state}
             />
         </div>
     )

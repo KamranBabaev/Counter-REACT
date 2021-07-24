@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Counter-REACT/static/css/main.6a56dfd9.chunk.css",
+    "main.js": "/Counter-REACT/static/js/main.4935fb7e.chunk.js",
+    "main.js.map": "/Counter-REACT/static/js/main.4935fb7e.chunk.js.map",
+    "runtime-main.js": "/Counter-REACT/static/js/runtime-main.6d8a4933.js",
+    "runtime-main.js.map": "/Counter-REACT/static/js/runtime-main.6d8a4933.js.map",
+    "static/js/2.ae3c0fd4.chunk.js": "/Counter-REACT/static/js/2.ae3c0fd4.chunk.js",
+    "static/js/2.ae3c0fd4.chunk.js.map": "/Counter-REACT/static/js/2.ae3c0fd4.chunk.js.map",
+    "index.html": "/Counter-REACT/index.html",
+    "static/css/main.6a56dfd9.chunk.css.map": "/Counter-REACT/static/css/main.6a56dfd9.chunk.css.map",
+    "static/js/2.ae3c0fd4.chunk.js.LICENSE.txt": "/Counter-REACT/static/js/2.ae3c0fd4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d8a4933.js",
+    "static/js/2.ae3c0fd4.chunk.js",
+    "static/css/main.6a56dfd9.chunk.css",
+    "static/js/main.4935fb7e.chunk.js"
+  ]
+}
